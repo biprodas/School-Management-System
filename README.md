@@ -32,7 +32,7 @@ module.exports = {
 
 ## Main Technologies
 
-### Client Side
+Client Side
 - [ ] React
 - [ ] Redux
 - [ ] Bootstap 4
@@ -62,16 +62,15 @@ Libraries used in Server-side
 - [ ] moment
 - [ ] validator
 
-
 Deployment
 - [ ] Git
 - [ ] Heroku
 
-APIs
+## APIs
 
-Users endpoints
+### Users endpoints
 
 POST
-/api/users/register
-/api/users/login
-/api/users/current private
+- /api/users/register
+- /api/users/login
+- /api/users/current private
