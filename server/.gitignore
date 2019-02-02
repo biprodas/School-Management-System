@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+/config/keys
+# testing
+
+# production
+/build
+
+# misc
+/config/keys.js
+package-lock.json
