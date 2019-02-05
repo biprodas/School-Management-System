@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // import { renderRoutes } from 'react-router-config';
 import Loadable from 'react-loadable';
 import './App.scss';
@@ -37,7 +37,7 @@ class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
           <Switch>
             <Route exact path="/login" name="Login Page" component={Login} />
             <Route exact path="/register" name="Register Page" component={Register} />
@@ -45,7 +45,7 @@ class App extends Component {
             <Route exact path="/500" name="Page 500" component={Page500} />
             <Route path="/" name="Home" component={DefaultLayout} />
           </Switch>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
