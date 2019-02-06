@@ -70,19 +70,19 @@ class DefaultAside extends Component {
                 <div className="avatar float-right">
                   <img className="img-avatar" src="assets/img/avatars/7.jpg" alt="admin@bootstrapmaster.com"></img>
                 </div>
-                <div>Meeting with <strong>Lucas</strong> </div>
+                <div>Meeting with <strong>Ajay Da</strong> </div>
                 <small className="text-muted mr-3">
-                  <i className="icon-calendar"></i>&nbsp; 1 - 3pm
+                  <i className="icon-calendar"></i>&nbsp; 11 - 12am
                 </small>
                 <small className="text-muted">
-                  <i className="icon-location-pin"></i> Palo Alto, CA
+                  <i className="icon-location-pin"></i> IT Park, Jashore
                 </small>
               </ListGroupItem>
               <ListGroupItem action tag="a" href="#" className="list-group-item-accent-info list-group-item-divider">
                 <div className="avatar float-right">
                   <img className="img-avatar" src="assets/img/avatars/4.jpg" alt="admin@bootstrapmaster.com"></img>
                 </div>
-                <div>Skype with <strong>Megan</strong></div>
+                <div>Skype with <strong>Hiranmoy</strong></div>
                 <small className="text-muted mr-3">
                   <i className="icon-calendar"></i>&nbsp; 4 - 5pm
                 </small>
@@ -157,7 +157,24 @@ class DefaultAside extends Component {
                 </div>
               </div>
               <div>
-                <small className="text-muted">Lukasz Holeczek</small>
+                <small className="text-muted">Ajay Dutta</small>
+                <small className="text-muted float-right mt-1">7:17am</small>
+              </div>
+              <div className="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
+              <small className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt...
+              </small>
+            </div>
+            <hr />
+            <div className="message">
+              <div className="py-3 pb-5 mr-3 float-left">
+                <div className="avatar">
+                  <img src={'assets/img/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
+                  <span className="avatar-status badge-success"></span>
+                </div>
+              </div>
+              <div>
+                <small className="text-muted">Biprodas</small>
                 <small className="text-muted float-right mt-1">1:52 PM</small>
               </div>
               <div className="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
@@ -174,7 +191,7 @@ class DefaultAside extends Component {
                 </div>
               </div>
               <div>
-                <small className="text-muted">Lukasz Holeczek</small>
+                <small className="text-muted">Hiranmoy</small>
                 <small className="text-muted float-right mt-1">1:52 PM</small>
               </div>
               <div className="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
@@ -191,7 +208,7 @@ class DefaultAside extends Component {
                 </div>
               </div>
               <div>
-                <small className="text-muted">Lukasz Holeczek</small>
+                <small className="text-muted">Anol roy</small>
                 <small className="text-muted float-right mt-1">1:52 PM</small>
               </div>
               <div className="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
@@ -208,24 +225,7 @@ class DefaultAside extends Component {
                 </div>
               </div>
               <div>
-                <small className="text-muted">Lukasz Holeczek</small>
-                <small className="text-muted float-right mt-1">1:52 PM</small>
-              </div>
-              <div className="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
-              <small className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt...
-              </small>
-            </div>
-            <hr />
-            <div className="message">
-              <div className="py-3 pb-5 mr-3 float-left">
-                <div className="avatar">
-                  <img src={'assets/img/avatars/7.jpg'} className="img-avatar" alt="admin@bootstrapmaster.com" />
-                  <span className="avatar-status badge-success"></span>
-                </div>
-              </div>
-              <div>
-                <small className="text-muted">Lukasz Holeczek</small>
+                <small className="text-muted">Vozon Roy</small>
                 <small className="text-muted float-right mt-1">1:52 PM</small>
               </div>
               <div className="text-truncate font-weight-bold">Lorem ipsum dolor sit amet</div>
@@ -236,7 +236,6 @@ class DefaultAside extends Component {
           </TabPane>
           <TabPane tabId="3" className="p-3">
             <h6>Settings</h6>
-
             <div className="aside-options">
               <div className="clearfix mt-4">
                 <small><b>Option 1</b></small>
