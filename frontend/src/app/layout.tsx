@@ -1,20 +1,26 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+
+import { appConfig } from "~/config";
+import { geistMono, geistSans } from "~/font";
+import { cn } from "~/lib/utils";
+import { ThemeProvider } from "~/providers/theme-provider";
+import { ToasterProvider } from "~/providers/toast-provider";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Dyno School",
-  description: "A complete solution for managing student records, attendance, fees, exams, and communication, making school administration efficient and seamless. 🚀",
+  title: appConfig.title,
+  description: appConfig.description,
+  robots: appConfig.robots,
+  openGraph: {
+    title: appConfig.title,
+    description: appConfig.description,
+    url: appConfig.appUrl,
+  },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -23,11 +29,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          geistSans.variable,
+          geistMono.variable
+        )}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <ToasterProvider />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
