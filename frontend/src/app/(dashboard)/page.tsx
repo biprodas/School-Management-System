@@ -1,9 +1,79 @@
-import React from 'react'
-
 const DashboardPage = () => {
   return (
-    <div>DashboardPage</div>
-  )
-}
+    <div className="">
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>Dashboard</div>
+      <div>END</div>
+    </div>
+  );
+};
 
-export default DashboardPage
+export default DashboardPage;
